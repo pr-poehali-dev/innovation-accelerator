@@ -182,8 +182,8 @@ export default function Index() {
       >
         <Shader className="h-full w-full">
           <Swirl
-            colorA="#1275d8"
-            colorB="#e19136"
+            colorA="#1a6fd4"
+            colorB="#f07820"
             speed={0.8}
             detail={0.8}
             blend={50}
@@ -195,16 +195,16 @@ export default function Index() {
             fineY={40}
           />
           <ChromaFlow
-            baseColor="#0066ff"
-            upColor="#0066ff"
-            downColor="#d1d1d1"
-            leftColor="#e19136"
-            rightColor="#e19136"
-            intensity={0.9}
+            baseColor="#1a6fd4"
+            upColor="#1a6fd4"
+            downColor="#f0f4ff"
+            leftColor="#f07820"
+            rightColor="#f07820"
+            intensity={0.85}
             radius={1.8}
             momentum={25}
             maskType="alpha"
-            opacity={0.97}
+            opacity={0.92}
           />
         </Shader>
         <div className="absolute inset-0 bg-black/20" />
@@ -220,9 +220,9 @@ export default function Index() {
           className="flex items-center gap-2 transition-transform hover:scale-105"
         >
           <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-foreground/15 backdrop-blur-md transition-all duration-300 hover:scale-110 hover:bg-foreground/25">
-            <span className="font-sans text-xl font-bold text-foreground">П</span>
+            <span className="font-sans text-xl font-bold text-foreground">К</span>
           </div>
-          <span className="font-sans text-xl font-semibold tracking-tight text-foreground">ПроМед Центр</span>
+          <span className="font-sans text-xl font-semibold tracking-tight text-foreground">КулАяк</span>
         </button>
 
         <div className="hidden items-center gap-8 md:flex">
@@ -261,7 +261,7 @@ export default function Index() {
         <section className="flex min-h-screen w-screen shrink-0 flex-col justify-end px-6 pb-16 pt-24 md:px-12 md:pb-24">
           <div className="max-w-3xl">
             <div className="mb-4 inline-block animate-in fade-in slide-in-from-bottom-4 rounded-full border border-foreground/20 bg-foreground/15 px-4 py-1.5 backdrop-blur-md duration-700">
-              <p className="font-mono text-xs text-foreground/90">Протезно-ортопедический центр</p>
+              <p className="font-mono text-xs text-foreground/90">Казанский протезный центр</p>
             </div>
             <h1 className="mb-6 animate-in fade-in slide-in-from-bottom-8 font-sans text-6xl font-light leading-[1.1] tracking-tight text-foreground duration-1000 md:text-7xl lg:text-8xl">
               <span className="text-balance">

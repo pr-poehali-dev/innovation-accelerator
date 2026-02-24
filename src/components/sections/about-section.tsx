@@ -13,7 +13,7 @@ export function AboutSection({ scrollToSection }: { scrollToSection?: (index: nu
         <div className="grid gap-8 md:grid-cols-2 md:gap-16 lg:gap-24">
           <div>
             <div
-              className={`mb-6 transition-all duration-700 md:mb-12 ${
+              className={`mb-6 transition-all duration-700 md:mb-8 ${
                 isVisible ? "translate-y-0 opacity-100" : "-translate-y-12 opacity-0"
               }`}
             >
@@ -27,7 +27,7 @@ export function AboutSection({ scrollToSection }: { scrollToSection?: (index: nu
             </div>
 
             <div
-              className={`space-y-3 transition-all duration-700 md:space-y-4 ${
+              className={`mb-6 space-y-3 transition-all duration-700 md:mb-8 md:space-y-4 ${
                 isVisible ? "translate-y-0 opacity-100" : "translate-y-8 opacity-0"
               }`}
               style={{ transitionDelay: "200ms" }}
@@ -38,6 +38,19 @@ export function AboutSection({ scrollToSection }: { scrollToSection?: (index: nu
               <p className="max-w-md text-sm leading-relaxed text-foreground/90 md:text-lg">
                 Наша команда врачей и техников помогает каждому пациенту вернуться к полноценной жизни.
               </p>
+            </div>
+
+            <div
+              className={`transition-all duration-700 ${
+                isVisible ? "translate-y-0 opacity-100" : "translate-y-8 opacity-0"
+              }`}
+              style={{ transitionDelay: "350ms" }}
+            >
+              <img
+                src="https://cdn.poehali.dev/projects/4aea8f52-05ac-4b65-a1c0-fff1f39adb30/files/8a93c5f8-7fc3-464e-b903-4d3de61a6af1.jpg"
+                alt="Команда специалистов КулАяк"
+                className="h-40 w-full rounded-xl object-cover md:h-52"
+              />
             </div>
           </div>
 
@@ -76,7 +89,7 @@ export function AboutSection({ scrollToSection }: { scrollToSection?: (index: nu
         </div>
 
         <div
-          className={`mt-8 flex flex-wrap gap-3 transition-all duration-700 md:mt-16 md:gap-4 ${
+          className={`mt-8 flex flex-wrap gap-3 transition-all duration-700 md:mt-12 md:gap-4 ${
             isVisible ? "translate-y-0 opacity-100" : "translate-y-12 opacity-0"
           }`}
           style={{ transitionDelay: "750ms" }}
