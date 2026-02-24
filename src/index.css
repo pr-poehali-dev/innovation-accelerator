@@ -5,7 +5,7 @@
 @layer base {
   :root {
     /* Бионика 2.0 style — white/cyan/lavender */
-    --background: 220 20% 97%;
+    --background: 0 0% 100%;
     --foreground: 230 35% 12%;
 
     --card: 0 0% 100%;
@@ -14,24 +14,24 @@
     --popover: 0 0% 100%;
     --popover-foreground: 230 35% 12%;
 
-    --primary: 185 78% 42%;
+    --primary: 185 78% 38%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 260 30% 94%;
+    --secondary: 185 40% 93%;
     --secondary-foreground: 230 35% 20%;
 
-    --muted: 220 20% 95%;
+    --muted: 210 20% 96%;
     --muted-foreground: 230 15% 50%;
 
-    --accent: 185 78% 42%;
+    --accent: 185 78% 38%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 220 20% 88%;
-    --input: 220 20% 88%;
-    --ring: 185 78% 42%;
+    --border: 210 20% 90%;
+    --input: 210 20% 90%;
+    --ring: 185 78% 38%;
 
     --chart-1: 185 78% 42%;
     --chart-2: 260 40% 65%;
@@ -52,7 +52,7 @@
   }
 
   .dark {
-    --background: 220 20% 97%;
+    --background: 0 0% 100%;
     --foreground: 230 35% 12%;
 
     --card: 0 0% 100%;
@@ -61,33 +61,33 @@
     --popover: 0 0% 100%;
     --popover-foreground: 230 35% 12%;
 
-    --primary: 185 78% 42%;
+    --primary: 185 78% 38%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 260 30% 94%;
+    --secondary: 185 40% 93%;
     --secondary-foreground: 230 35% 20%;
 
-    --muted: 220 20% 95%;
+    --muted: 210 20% 96%;
     --muted-foreground: 230 15% 50%;
 
-    --accent: 185 78% 42%;
+    --accent: 185 78% 38%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 62% 30%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 220 20% 88%;
-    --input: 220 20% 88%;
-    --ring: 185 78% 42%;
+    --border: 210 20% 90%;
+    --input: 210 20% 90%;
+    --ring: 185 78% 38%;
 
-    --sidebar-background: 220 20% 97%;
+    --sidebar-background: 0 0% 100%;
     --sidebar-foreground: 230 35% 12%;
-    --sidebar-primary: 185 78% 42%;
+    --sidebar-primary: 185 78% 38%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 260 30% 94%;
+    --sidebar-accent: 185 40% 93%;
     --sidebar-accent-foreground: 230 35% 20%;
-    --sidebar-border: 220 20% 88%;
-    --sidebar-ring: 185 78% 42%;
+    --sidebar-border: 210 20% 90%;
+    --sidebar-ring: 185 78% 38%;
   }
 }
 
